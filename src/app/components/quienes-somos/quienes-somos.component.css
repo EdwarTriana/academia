@@ -1,0 +1,45 @@
+
+.tituloSomos{
+    position: absolute;
+    top: 10rem;
+    left: 40%;
+    text-shadow: black 2px 5px;
+    font-size: 15rem;
+   
+}
+.tituloSomos{
+    animation: bounce2 2s alternate;  
+}
+@keyframes bounce2{
+    0%{
+        transform: translate(40%);
+    }
+    100%{
+        transform: translate(0%);
+    }
+  }
+
+.linea{
+    margin-top: 4rem;
+    justify-content: center;
+    margin-left: 30%;
+
+}
+
+.separador{
+    width: 50%;
+    border: none; 
+    height: 5px;
+     /* Set the hr color */ 
+    color: rgb(19, 19, 18); /* old IE */ 
+    background-color: rgb(22, 22, 22);
+    
+
+}
+/*boton contactanos*/
+.contactanos:hover{
+    background-color: rgb(12, 12, 12);
+    color: rgb(255, 254, 252);
+    transition: 1s;
+    border-radius: 50%;
+}

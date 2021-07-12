@@ -1,0 +1,27 @@
+.contactanos{
+    margin-top: 5rem;
+    text-decoration: none;
+}
+
+/*animacion texto del titulo */
+.tituloContactanos{
+    position: absolute;
+    top: 10rem;
+    left: 40%;
+    text-shadow: black 2px 5px;
+    font-size: 15rem;
+   
+}
+
+.tituloContactanos{
+    animation: bounce2 2s alternate;  
+}
+@keyframes bounce2{
+    0%{
+        transform: translate(40%);
+    }
+    100%{
+        transform: translate(0%);
+    }
+  }
+

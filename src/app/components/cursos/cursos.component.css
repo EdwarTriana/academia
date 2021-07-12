@@ -1,0 +1,43 @@
+
+.linea{
+    margin-top: 1rem;
+}
+/*titulo de la portada*/
+.contenedor{
+    position: relative;
+    display: inline-block;
+}
+.titulo{
+    position: absolute;
+    top: 10rem;
+    left: 45%;
+    text-shadow: black 2px 5px;
+    font-size: 15rem;
+   
+}
+.titulo{
+    animation: bounce2 2s alternate;  
+}
+@keyframes bounce2{
+    0%{
+        transform: translate(40%);
+    }
+    100%{
+        transform: translate(0%);
+    }
+  }
+/*hover de botones*/
+.loquiero:hover{
+    background-color: rgb(12, 12, 12);
+    color: rgb(255, 254, 252);
+    transition: 1s;
+    border-radius: 50%;
+}
+
+
+/*hover de tarjetas*/
+.card:hover{ 
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2)
+    
+}

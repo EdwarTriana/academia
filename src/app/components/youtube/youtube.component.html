@@ -1,0 +1,15 @@
+<div class="bg-secondary">
+    <div class="container bg-secondary text-center ">
+        <div class="card bg-secondary">
+            <h2><strong class="mt-2 text-white display-4">Nuestros Estudiantes</strong></h2>
+            <div class="container bg-secondary">
+                <div class="row">
+                    <div class="col">
+                        <youtube-player class="m-2" *ngFor="let v of videos" [videoId]="v.video" suggestedQuality="highres"[height]="400" [width]="600"></youtube-player>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+</div>
+ 

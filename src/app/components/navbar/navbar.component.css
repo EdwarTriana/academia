@@ -1,0 +1,14 @@
+.menu1:hover{
+    background-color: #d5d3d3;
+    color:  #ffffff;
+    border-radius: 50%;
+    transition: 1s;
+}
+.menu2:hover{
+    color: #ffffff;
+    transition: 1s;
+}
+.barra{
+    position: fixed;
+}
+

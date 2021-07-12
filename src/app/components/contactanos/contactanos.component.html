@@ -1,0 +1,38 @@
+<app-navbar></app-navbar>
+<!--portada contactanos-->
+<header>
+  <div style="width: 100%; height: 25rem;">
+    <div class="d-flex justify-content-center" style="width: 100%; height: 28rem;">
+    <img  class="img-fluid" src="../../../assets/img/contactanos.jpg" alt="" style="width: 100%; height: 28rem;" >
+    <div class="tituloContactanos text-white "><h1 class="display-3"><strong>Contactanos</strong></h1></div>
+  </div>
+</div>
+</header>
+
+
+<!--el formuilario de contacto no esta activo para enviar mensajes-->
+<div class="bg-secondary ">
+    <div class="container d-flex justify-content-center ">
+        <form class="w-50 ">
+            <div class="mb-3 contactanos">
+                <label for="exampleInputName" class="form-label text-white">Nombre</label>
+                <input type="text" class="form-control" id="exampleInputName" aria-describedby="emailHelp">
+                <div id="nameHelp" class="form-text"></div>
+              </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label text-white">Correo Electronico</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text"></div>
+            </div>
+            <div class="mb-3" >
+                <label for="exampleInputTextArea" class="form-label text-white">Mensaje</label>
+                <input type="text-area" class="form-control" style="height: 5rem;" id="exampleInputName" aria-describedby="emailHelp">
+                <div id="nameHelp" class="form-text"></div>
+              </div>
+
+            <button type="submit" class="btn btn-primary my-4">Enviar</button>
+          </form>
+    </div>
+</div>
+<!--footer-->
+<app-footer></app-footer>

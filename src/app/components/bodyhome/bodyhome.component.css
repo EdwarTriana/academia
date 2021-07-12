@@ -1,0 +1,26 @@
+.pago{
+    margin-top: 4rem;
+}
+.contactanosInicio{
+    margin-top: 3rem;
+    text-decoration: none;
+}
+.contactanosInicio:hover{
+    background-color: rgb(12, 12, 12);
+    color: rgb(255, 254, 252);
+    transition: 1s;
+    border-radius: 50%;
+}
+
+/*movimiento de entrada texto servicios, descripcion y la foto*/
+.descripcion{
+    animation: bounce2 2s alternate;  
+}
+@keyframes bounce2{
+    0%{
+        transform: translate(40%);
+    }
+    100%{
+        transform: translate(0%);
+    }
+  }
