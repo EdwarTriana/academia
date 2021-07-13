@@ -15,6 +15,9 @@
     font-size: 15rem;
    
 }
+.cabecera{
+    margin-top: 5rem;
+}
 .titulo{
     animation: bounce2 2s alternate;  
 }

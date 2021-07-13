@@ -16,7 +16,7 @@ export class CursosComponent implements OnInit {
     {
       titulo:'Guitarra Acustica',
       descripcion:'Es un instrumento de cuerdas punzadas que trae beneficios de relajacion , estimulacion cerebral, aumento de la confianza y motivacion a la creatividad entre otros...',
-      imgUrl:'/assets/img/imgCursos/guitarraAcustica.jpg'
+      imgUrl:'assets/img/imgCursos/guitarraAcustica.jpg'
     },
     {
       titulo:'Tecnica Vocal',
