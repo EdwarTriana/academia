@@ -16,7 +16,7 @@
    
 }
 .cabecera{
-    margin-top: 10rem;
+    padding-top: 5rem;
 }
 .titulo{
     animation: bounce2 2s alternate;  
